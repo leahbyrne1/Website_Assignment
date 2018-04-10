@@ -1,0 +1,36 @@
+/***** Navigation Bar Centred ******/
+nav {
+ margin: auto;
+ width:1000px;
+}
+
+nav ul{
+ list-style-type: none;
+ margin: 0;
+ padding: 0;
+ overflow: hidden;
+ position: relative;
+}
+
+nav li{
+ float: left;
+}
+
+nav a:link, nav a:visited{
+ display: block;
+ width: 180px;
+ font-family: fantasy;
+ font-weight: lighter;
+ color: cornflowerblue;
+ background-color: lightblue;
+ text-align: center;
+ padding: 4px;
+ text-decoration: none;
+ text-transform: full-width;
+ border: 2px solid cornflowerblue;
+}
+
+nav a:hover, nav a:active{
+ background-color: whitesmoke;
+ color: cornflowerblue;
+}
